@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Mytitulo } from "./componentes/titulo";
+import { MyBox } from "./componentes/box1";
+import { MyBulbasaur } from "./componentes/Bulbasaur";
+import { MyIvysaur } from "./componentes/Ivysaur";
+import { MyVenusaur } from "./componentes/Venusaur";
+import { MyCharmander } from "./componentes/Charmander";
+import { NewDiv } from "./componentes/newdiv";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <NewDiv>
+      <Mytitulo />
+      <MyBox />
+      <MyBulbasaur />
+      <MyIvysaur />
+      <MyVenusaur />
+      <MyCharmander/>
+      </NewDiv>
+      <h1>By: Rafael Bravim</h1>
+    </>
   );
 }
 
