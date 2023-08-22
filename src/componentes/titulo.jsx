@@ -14,6 +14,7 @@ export const TextTitulo = styled.p`
 font-family: SF Pro Display;
 font-size: 16px;
 font-weight: 400;
+
 `
 export const Icons = styled.div`
 display: flex;
@@ -37,7 +38,7 @@ export const Mytitulo = () => {
                 <GiBallPyramid />
             </Icons>
             <BoxTitulo>
-                Pokédex
+                Pokédex-
             </BoxTitulo>
             <TextTitulo>
                 Search for Pokémon by name or using the National Pokédex number.
